@@ -32,9 +32,6 @@ public class Ws {
 				// 짝수 번째 숫자들의 합과 평균을 출력한다.
 				
 				
-				
-				
-				
 			}else if(cmd.equals("a3")){
 				while(true) {
 				System.out.println("5~9까지 숫자를 입력하세요.");
@@ -82,9 +79,8 @@ public class Ws {
 				// 배열의 합과 평균을 출력한다.
 				
 			}else {
-				System.out.println("Invalid Command..");
-				System.out.println("Try Again..");
-			}
+
+			} 
 		} //end while
 		
 		System.out.println("Bye...");

@@ -8,8 +8,13 @@ public class Ws {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		Random r = new Random();
 		
 		while(true) {
+			System.out.println("Input command[q, a1, a2, a3, a4]");
+		
+
+		while (true) {
 			System.out.println("Input command[q, a1, a2, a3, a4]");
 			String cmd = sc.next();
 			
@@ -40,7 +45,7 @@ public class Ws {
 				// 입력 받은 숫자만큼 배열을 생성 하고
 				int [] num3 = new int [num2]; //입력받은 수 만큼 배열사이즈 생성
 				
-				Random r = new Random(); //랜덤 지정
+				
 				int sum = 0;
 				int cnt = 0;
 				double avg = 0.0;
@@ -91,4 +96,4 @@ public class Ws {
 
 	}
 
-}
+}}
